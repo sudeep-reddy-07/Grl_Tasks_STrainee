@@ -12,7 +12,7 @@ def count_word_occurrences(n, words):
     word_count = {}
     word_order = []
     
-    # Iterate through words and count occurrences
+ # Iterate through words and count occurrences
     for word in words:
         if word not in word_count:
             word_order.append(word)
