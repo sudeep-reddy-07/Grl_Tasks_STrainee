@@ -9,8 +9,3 @@ This project is a Python program that checks if credit card numbers are valid ba
 - Only digits and hyphens are allowed.
 - It cannot have 4 or more of the same digits in a row (for example, `4444` is not allowed).
 
-## How to Use
-
-1. **Clone the project** (copy it from GitHub):
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/credit_card_validator.git
