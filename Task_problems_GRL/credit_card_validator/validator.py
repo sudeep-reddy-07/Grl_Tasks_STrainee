@@ -14,7 +14,7 @@ def validate_credit_card(card_number):
     Returns:
     str: 'Valid' if the card is valid, otherwise 'Invalid'
     """
-    # Regex to match valid card formats: either 16 digits or 4 groups of 4 digits separated by hyphens
+    # Regex to match valid card formats: 
     pattern = r"^[456]\d{3}(-?\d{4}){3}$"
     # Check if card matches the pattern
     if re.match(pattern, card_number):
